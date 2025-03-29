@@ -54,3 +54,13 @@ function updateOutstandingFines() {
 
 // Call the function to set the current attendance on page load
 updateOutstandingFines();
+// Search Functionality
+document.getElementById('searchInput').addEventListener('input', (e) => {
+    const searchTerm = e.target.value.toLowerCase();
+    // Add search logic here
+});
+
+// Review Subscriptions button click handler
+document.getElementById('reviewSubsBtn').addEventListener('click', function() {
+    window.location.href =subsandfines.html;
+});

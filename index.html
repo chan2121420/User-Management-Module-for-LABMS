@@ -12,31 +12,26 @@
     <div class="dashboard">
         <aside class="sidebar" id="sidebar">
             <div class="sidebar-header">
-                <button id="toggleSidebar" class="toggle-btn">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="3" y="3" width="18" height="18" rx="2" />
-                        <path d="M9 3v18M3 12h18" />
-                    </svg>
-                </button>
+                
             </div>
             <nav class="Featuredbooks">
                 <a href="#" class="nav-item active">
                     <span class="nav-icon"></span>
-                    <span class="nav-label">Dashboard</span>
+                    <span class="nav-label">Dashboard📊</span>
                 </a>
                 <a href="book.html" class="nav-item">
                     <span class="nav-icon"></span>
-                    <span class="nav-label">View Books</span>
+                    <span class="nav-label">View Books📚</span>
                 </a>
                 <a href="subsandfines.html" class="nav-item">
                     <span class="nav-icon"></span>
-                    <span class="nav-label">Subscriptions and Fines</span>
+                    <span class="nav-label">Subscriptions and Fines💳</span>
                 </a>
             </nav>
             <div class="sidebar-footer">
                 <button class="btn-primary">
                     <span class="nav-icon"></span>
-                    <span class="nav-label">Log Out</span>
+                    <span class="nav-label">Log Out❌</span>
                 </button>
             </div>
         </aside>
@@ -65,17 +60,67 @@
                     </div>
                 </div>
 
-                <div class="Subscriptions">
-                    <div class="chart-container">
-                        <h3>Subscriptions</h3>
-                        <button class="btn-primary">
-                           <span class="nav-label">Review Subscriptions</span>
-                        </button>
-                    </div>
-
-                    <br>
+               
+            </div>
+            <div class="quick-actions">
+                <h3>Quick Actions</h3>
+                <div class="actions-grid">
+            
+                    <a href="book.html"
+                     class="action-card-btn" >
+                        <span class="action-icon">📚</span>
+                        <span>Request New Book</span>
+                    </a>     
+                    <a href="book.html"
+                      class="action-card-btn">
+                        <span class="action-icon">🔍</span>
+                        <span>Search Catalog</span> 
+                    </a>        
+                    <a href="subsandfines.html"
+                    class="action-card-btn">
+                      <span class="action-icon">👤</span>
+                      <span>Subscriptions</span> 
+                  </a>        
                 </div>
             </div>
+             
+            <div>
+
+                <p>
+
+
+
+                    _
+                </p>
+            </div>
+<div class="notifications-section">
+    <h3>Important Notifications</h3>
+    <div class="notification warning">
+        <span class="alert-icon">❗</span>
+        <p>The Book "1984" is due tomorrow</p>
+    </div>
+    <div class="notification alert">
+        <span class="alert-icon">⚠️</span>
+        <p>Subscription Period left:</p>
+        <p>8</p><P>DAYS</P>
+
+    </div>
+</div>
+
+<div class="recent-borrowed">
+    <h3>Recently Borrowed</h3>
+    <div class="book-list">
+        <div class="book-item">
+            <div class="book-cover"></div>
+            <div class="book-info">
+                <h4>1984</h4>
+                <p>Due Date: 2023-12-15</p>
+            </div>
+        </div>
+        <!-- Add more book items -->
+    </div>
+</div>
+
         </main>
     </div>
     <script src="script.js"></script>
